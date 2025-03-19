@@ -1,8 +1,7 @@
 // foo.h
-#ifndef foo
-#define foo
+#ifndef FOO_H
+#define FOO_H
 
-#include foo
 
 int foo(int b);
 
