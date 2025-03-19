@@ -1,7 +1,9 @@
 // foo.h
+#ifndef foo
+#define foo
 
-int foo(int b) {
-  if (b > 2)
-    return 0;
-  return 1;
-}
+#include foo
+
+int foo(int b);
+
+#endif
